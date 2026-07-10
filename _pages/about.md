@@ -9,10 +9,10 @@ profile:
   image: aron_bodisz_professional_photo.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-  <p>Vienna University of Economics and Business<p>
-  <p>Building D4, Room 4.163<p>
-  <p>Welthandelsplatz 1<p>
-  <p>A-1020 Vienna<p>
+    <p>Vienna University of Economics and Business</p>
+    <p>Building D4, Room 4.163</p>
+    <p>Welthandelsplatz 1</p>
+    <p>A-1020 Vienna</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
