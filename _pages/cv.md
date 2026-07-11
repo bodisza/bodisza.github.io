@@ -7,7 +7,7 @@ nav_order: 4
 ---
 
 <object
-  data="/assets/pdf/cv.pdf"
+  data="/assets/pdf/aron_bodisz_cv.pdf"
   type="application/pdf"
   width="100%"
   height="1000px">
