@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /research/
-title: research
+permalink: /working_papers/
+title: working papers
 nav: true
 nav_order: 2
 ---
