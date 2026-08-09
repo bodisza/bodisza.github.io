@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://bodisza.github.io/sitemap.xml
+Sitemap: https://aronbodisz.com/sitemap.xml
