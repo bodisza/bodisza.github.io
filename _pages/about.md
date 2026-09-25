@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate in Finance
+subtitle: PhD Candidate in Finance · On the Academic Job Market 2026–2027
 
 profile:
   align: right
@@ -28,6 +28,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+**I am on the 2026–2027 academic job market.** My CV is available [here](/assets/pdf/aron_bodisz_cv.pdf).
+
 I am a fifth-year PhD candidate in Finance at the [Vienna Graduate School of Finance (VGSF)](https://www.vgsf.ac.at/).
 
-My research interests are market microstructure, decentralized finance (DeFi), and market design. 
+My research interests are market microstructure, decentralized finance (DeFi), and market design.
