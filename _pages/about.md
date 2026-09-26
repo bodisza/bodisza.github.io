@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate in Finance · On the Academic Job Market 2026–2027
+subtitle:
 
 profile:
   align: right
