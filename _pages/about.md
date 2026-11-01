@@ -71,7 +71,7 @@ I am a PhD candidate in Finance at the [Vienna Graduate School of Finance (VGSF)
       <div>
         <figure class="jmp-fig">
           <img src="/assets/img/jmp_tail_absorption.png" alt="Model figure: markup against order size. Orders below a size cutoff execute on the limit order book (LOB), larger orders on the automated market maker (AMM). The LOB with an AMM charges a lower markup (price above the mid price) than the LOB alone; the gap is the tail-absorption gain." loading="lazy">
-          <figcaption>Small orders execute on the order book, large orders on the AMM. With the tail absorbed, the order book charges a lower markup at every size. Adapted from Figure 8 of the paper.</figcaption>
+        <figcaption>Model figure: markup against order size. Orders below a size cutoff execute on the limit order book (LOB), larger orders on the automated market maker (AMM). The LOB with an AMM charges a lower markup (price above the mid price) than the LOB alone; the gap is the tail-absorption gain.</figcaption>
         </figure>
       </div>
     </div>
