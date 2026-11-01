@@ -91,7 +91,7 @@ I am a PhD candidate in Finance at the [Vienna Graduate School of Finance (VGSF)
   <h2>Work in Progress</h2>
   <div class="paper">
     <p class="paper-title">What Drives Stablecoin Yields in DeFi Lending Markets?</p>
-    <p class="paper-meta">with Yuan Chen and Min Yang</p>
+    <p class="paper-meta">with <a href="https://www.yuan-chen.net/">Yuan Chen</a> and Min Yang</p>
   </div>
 </div>
 
