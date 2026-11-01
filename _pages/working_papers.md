@@ -1,15 +1,7 @@
 ---
 layout: page
 permalink: /working_papers/
-title: working papers
-nav: true
+title: research
+nav: false
 nav_order: 2
 ---
-
-<!-- _pages/publications.md -->
-
-<div class="publications">
-
-{% bibliography %}
-
-</div>
