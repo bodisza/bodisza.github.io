@@ -45,6 +45,13 @@ latest_posts:
   .refs p { margin: 0; }
   .refs b { font-weight: 500; }
   .refs .muted { color: var(--global-text-color-light); }
+  .jm-banner { margin: 0 0 1rem; }
+  .jm-banner p { font-weight: 500; margin: 0 0 0.6rem; }
+  .jmp-links { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0 0 1rem; }
+  .jmp-btn { display: inline-block; font-size: 0.85rem; font-weight: 500; padding: 0.35rem 0.85rem; border: 1px solid var(--global-theme-color); border-radius: 5px; color: var(--global-theme-color) !important; text-decoration: none !important; transition: background 0.15s, color 0.15s; }
+  .jmp-btn:hover { background: var(--global-theme-color); color: #fff !important; }
+  .jmp-btn.primary { background: var(--global-theme-color); color: #fff !important; }
+  .jmp-btn.primary:hover { opacity: 0.85; }
   @media (max-width: 576px) {
     .post .profile { width: 38% !important; float: right !important; margin: 0 0 0.6rem 0.9rem !important; }
   }
@@ -56,7 +63,13 @@ latest_posts:
   }
 </style>
 
-I am on the 2026–2027 academic job market.
+<div class="jm-banner">
+  <p>I am on the 2026–2027 academic job market.</p>
+  <div class="jmp-links">
+    <a class="jmp-btn primary" href="/assets/pdf/bodisz_aron_jmp.pdf" target="_blank" rel="noopener">Job Market Paper (PDF)</a>
+    <a class="jmp-btn" href="/assets/pdf/aron_bodisz_cv.pdf" target="_blank" rel="noopener">CV (PDF)</a>
+  </div>
+</div>
 
 I am a PhD candidate in Finance at the [Vienna Graduate School of Finance (VGSF)](https://www.vgsf.ac.at/), supervised by [Nikolaus Hautsch](https://homepage.univie.ac.at/nikolaus.hautsch/). In fall 2026, I was a visiting PhD student at the Haskayne School of Business, University of Calgary, hosted by [Alfred Lehar](https://profiles.ucalgary.ca/alfred-lehar). My research areas are market microstructure, market design, and decentralized finance (DeFi).
 
@@ -66,6 +79,9 @@ I am a PhD candidate in Finance at the [Vienna Graduate School of Finance (VGSF)
     <span class="jmp-tag">Job Market Paper</span>
     <h3 class="jmp-title">Absorbing the Tail: How Automated Market Makers Affect Limit Order Book Liquidity</h3>
     <p class="jmp-meta">Single-authored</p>
+    <div class="jmp-links">
+      <a class="jmp-btn primary" href="/assets/pdf/bodisz_jmp.pdf" target="_blank" rel="noopener">Download PDF</a>
+    </div>
     <div class="jmp-grid">
       <p class="jmp-abstract">The coexistence of an automated market maker (AMM) with a limit order book (LOB) that trades the same asset raises depth at the top of the book. In a model of competitive liquidity supply, the AMM's fixed pricing function lets its liquidity providers (LPs) break even on average over the orders they serve, while LPs on the LOB break even on the marginal unit at each price. When the AMM has a cost advantage over the LOB, it offers better execution than the LOB for orders above a size cutoff and absorbs the largest orders, which carry the most information. LPs on the LOB thus face less informed order flow and post more depth at every price they quote. On Uniswap v3 and Binance, the AMM's share of orders rises with order size, reaching about 86% in the largest size bin on ETH–USDC. The launch of PancakeSwap v3, an AMM on Binance's blockchain, raised depth at Binance's best bid and ask by about 57% relative to Coinbase's, and the gain shrinks farther down the book, as the model predicts.</p>
       <div>
